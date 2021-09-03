@@ -1,0 +1,42 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for a typescript project",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start-watch": "nodemon --watch src --ext json,ts,tsx --exec npm start",
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntgn81/typescript-boilerplate.git"
+  },
+  "author": "Nam Nguyen <ntgn81@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntgn81/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ntgn81/typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.12",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": "12.14.1"
+  }
+}

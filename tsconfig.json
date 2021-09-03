@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    // https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping#node-10
+    "lib": ["es2018"],
+    "module": "commonjs",
+    "target": "es2018",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+  },
+  "include": ["src"]
+}
